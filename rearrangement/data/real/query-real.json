@@ -1,0 +1,61 @@
+{
+    "surface": {
+        "path": "rearrangement/data/real/models/surface.urdf",
+        "pose": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "z offset": 0.05,
+        "area": 0.0855
+    },
+    "obstacles": {},
+    "originals": {},
+    "news": {
+        "cylinder1": {
+            "path": "rearrangement/data/real/models/cylinder.urdf",
+            "z offset": 0.01,
+            "area": 0.00282743339
+        },
+        "cylinder2": {
+            "path": "rearrangement/data/real/models/cylinder.urdf",
+            "z offset": 0.01,
+            "area": 0.00282743339
+        },
+        "cylinder3": {
+            "path": "rearrangement/data/real/models/cylinder.urdf",
+            "z offset": 0.01,
+            "area": 0.00282743339
+        },
+        "cube1": {
+            "path": "rearrangement/data/real/models/cube.urdf",
+            "z offset": 0.01,
+            "area": 0.0036
+        },
+        "cube2": {
+            "path": "rearrangement/data/real/models/cube.urdf",
+            "z offset": 0.01,
+            "area": 0.0036
+        },
+        "cube3": {
+            "path": "rearrangement/data/real/models/cube.urdf",
+            "z offset": 0.01,
+            "area": 0.0036
+        },
+        "plus1": {
+            "path": "rearrangement/data/real/models/plus.urdf",
+            "z offset": 0.01,
+            "area": 0.0039
+        },
+        "plus2": {
+            "path": "rearrangement/data/real/models/plus.urdf",
+            "z offset": 0.01,
+            "area": 0.0039
+        },
+        "plus3": {
+            "path": "rearrangement/data/real/models/plus.urdf",
+            "z offset": 0.01,
+            "area": 0.0039
+        }
+    }
+}

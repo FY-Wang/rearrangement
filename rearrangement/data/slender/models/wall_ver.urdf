@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<robot name="cuboid">
+  <link name="base_link">
+
+    <collision>
+      <geometry>
+        <box size="2 10 5"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="2"/>
+    	<inertia ixx="0.333" ixy="0" ixz="0" iyy="0.833" iyz="0" izz="0.833"/>
+  	</inertial>
+
+    <visual>
+      <geometry>
+        <box size="2 10 5"/>
+      </geometry>
+    </visual>
+
+  </link>
+</robot>

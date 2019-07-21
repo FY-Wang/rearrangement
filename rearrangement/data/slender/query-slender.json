@@ -1,0 +1,117 @@
+{
+    "surface": {
+        "path": "rearrangement/data/slender/models/surface.urdf",
+        "pose": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "z offset": 0.5,
+        "area": 100
+    },
+    "obstacles": {
+        "walltop": {
+            "path": "rearrangement/data/slender/models/wall_hor.urdf",
+            "pose": [
+                0.0,
+                6,
+                0.0
+            ],
+            "z offset": 0,
+            "area": 0
+        },
+        "wallbottom": {
+            "path": "rearrangement/data/slender/models/wall_hor.urdf",
+            "pose": [
+                0.0,
+                -6,
+                0.0
+            ],
+            "z offset": 0,
+            "area": 0
+        },
+        "wallleft": {
+            "path": "rearrangement/data/slender/models/wall_ver.urdf",
+            "pose": [
+                -6,
+                0.0,
+                0.0
+            ],
+            "z offset": 0,
+            "area": 0
+        },
+        "wallright": {
+            "path": "rearrangement/data/slender/models/wall_ver.urdf",
+            "pose": [
+                6,
+                0.0,
+                0.0
+            ],
+            "z offset": 0,
+            "area": 0
+        }
+    },
+    "originals": {},
+    "news": {
+        "l1": {
+            "path": "rearrangement/data/slender/models/long_cuboid.urdf",
+            "z offset": 0.5,
+            "area": 5
+        },
+        "l2": {
+            "path": "rearrangement/data/slender/models/long_cuboid.urdf",
+            "z offset": 0.5,
+            "area": 5
+        },
+        "l3": {
+            "path": "rearrangement/data/slender/models/long_cuboid.urdf",
+            "z offset": 0.5,
+            "area": 5
+        },
+        "l4": {
+            "path": "rearrangement/data/slender/models/long_cuboid.urdf",
+            "z offset": 0.5,
+            "area": 5
+        },
+        "l5": {
+            "path": "rearrangement/data/slender/models/long_cuboid.urdf",
+            "z offset": 0.5,
+            "area": 5
+        },
+        "l6": {
+            "path": "rearrangement/data/slender/models/long_cuboid.urdf",
+            "z offset": 0.5,
+            "area": 5
+        },
+        "l7": {
+            "path": "rearrangement/data/slender/models/long_cuboid.urdf",
+            "z offset": 0.5,
+            "area": 5
+        },
+        "l8": {
+            "path": "rearrangement/data/slender/models/long_cuboid.urdf",
+            "z offset": 0.5,
+            "area": 5
+        },
+        "l9": {
+            "path": "rearrangement/data/slender/models/long_cuboid.urdf",
+            "z offset": 0.5,
+            "area": 5
+        },
+        "l10": {
+            "path": "rearrangement/data/slender/models/long_cuboid.urdf",
+            "z offset": 0.5,
+            "area": 5
+        },
+        "l11": {
+            "path": "rearrangement/data/slender/models/long_cuboid.urdf",
+            "z offset": 0.5,
+            "area": 5
+        },
+        "vl": {
+            "path": "rearrangement/data/slender/models/vlong_cuboid.urdf",
+            "z offset": 0.5,
+            "area": 7
+        }
+    }
+}

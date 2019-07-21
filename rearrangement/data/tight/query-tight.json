@@ -1,0 +1,41 @@
+{
+    "surface": {
+        "path": "rearrangement/data/tight/models/surface.urdf",
+        "pose": [0.0, 0.0, 0.0],
+        "z offset": 0,
+        "area": 1
+    },
+    "obstacles": {
+        "obstacle": {
+                "path": "rearrangement/data/tight/models/edges.urdf",
+                "pose": [0.0, 0.0, 0.0],
+                "z offset": 0.0,
+                "area": 1
+            }
+        },
+    "originals": {
+            "hollow_body": {
+                    "path": "rearrangement/data/tight/models/hollow.urdf",
+                    "pose": [0.0, -0.35, -0.78539816339],
+                    "z offset": 0,
+                    "area": 1
+
+                },
+            "filler_body": 
+                {
+                    "path": "rearrangement/data/tight/models/filler.urdf",
+                    "pose": [0.0, 1.0, 1.57079632679],
+                    "z offset": 0,
+                    "area": 1
+                }
+        },
+    "news": 
+        {
+            "box": 
+                {
+                    "path": "rearrangement/data/tight/models/box.urdf",
+                    "z offset": 0,
+                    "area": 1
+                }
+        }
+}

@@ -1,0 +1,144 @@
+{
+    "surface": {
+        "path": "rearrangement/data/simple/surface3.urdf",
+        "z_offset": 0.50,
+        "area": 45
+    },
+    "obstacles": {
+        "obstacle_1": {
+        "path": "rearrangement/data/simple/cylinder.urdf",
+        "pose": [0.0, 0.0, 0.0],
+        "z_offset": 1,
+        "area": 0.785398163
+            }
+        },
+    "clutter": {
+        "cube": {
+            "path": "rearrangement/data/simple/cube.urdf",
+            "pose": [0.0, -1.5, -0.78539816339],
+            "z_offset": 0.50,
+            "area": 1
+            },
+        "cuboid": {
+            "path": "rearrangement/data/simple/cuboid.urdf",
+            "pose": [0.0, 1.5, 1.57079632679],
+            "z_offset": 0.5,
+            "area": 2
+            },
+        "sphere": {
+            "path": "rearrangement/data/simple/sphere.urdf",
+            "pose": [-1.5, 0, 0.0],
+            "z_offset": 0.5,
+            "area": 0.785398163
+            },
+        "cylinder": {
+            "path": "rearrangement/data/simple/cylinder.urdf",
+            "pose": [1.5, 0, 0.0],
+            "z_offset": 1,
+            "area": 0.785398163
+            }
+        },
+    "new":
+        {
+            "cube1": {
+                "path": "rearrangement/data/simple/cube.urdf",
+                "z_offset": 0.5,
+                "area": 1
+            },
+            "cube2": {
+                "path": "rearrangement/data/simple/cube.urdf",
+                "z_offset": 0.5,
+                "area": 1
+            },
+            "cube3": {
+                "path": "rearrangement/data/simple/cube.urdf",
+                "z_offset": 0.5,
+                "area": 1
+            },
+            "cube4": {
+                "path": "rearrangement/data/simple/cube.urdf",
+                "z_offset": 0.5,
+                "area": 1
+            },
+            "cube5": {
+                "path": "rearrangement/data/simple/cube.urdf",
+                "z_offset": 0.5,
+                "area": 1
+            },
+            "cuboid1": {
+                "path": "rearrangement/data/simple/cuboid.urdf",
+                "z_offset": 0.5,
+                "area": 2
+            },
+            "cuboid2": {
+                "path": "rearrangement/data/simple/cuboid.urdf",
+                "z_offset": 0.5,
+                "area": 2
+            },
+            "cuboid3": {
+                "path": "rearrangement/data/simple/cuboid.urdf",
+                "z_offset": 0.5,
+                "area": 2
+            },
+            "cuboid4": {
+                "path": "rearrangement/data/simple/cuboid.urdf",
+                "z_offset": 0.5,
+                "area": 2
+            },
+            "cuboid5": {
+                "path": "rearrangement/data/simple/cuboid.urdf",
+                "z_offset": 0.5,
+                "area": 2
+            },
+            "sphere1": {
+                "path": "rearrangement/data/simple/sphere.urdf",
+                "z_offset": 0.5,
+                "area": 0.785398163
+            },
+            "sphere2": {
+                "path": "rearrangement/data/simple/sphere.urdf",
+                "z_offset": 0.5,
+                "area": 0.785398163
+            },
+            "sphere3": {
+                "path": "rearrangement/data/simple/sphere.urdf",
+                "z_offset": 0.5,
+                "area": 0.785398163
+            },
+            "sphere4": {
+                "path": "rearrangement/data/simple/sphere.urdf",
+                "z_offset": 0.5,
+                "area": 0.785398163
+            },
+            "sphere5": {
+                "path": "rearrangement/data/simple/sphere.urdf",
+                "z_offset": 0.5,
+                "area": 0.785398163
+            },
+            "cylinder1": {
+                "path": "rearrangement/data/simple/cylinder.urdf",
+                "z_offset": 1,
+                "area": 0.785398163
+            },
+            "cylinder2": {
+                "path": "rearrangement/data/simple/cylinder.urdf",
+                "z_offset": 1,
+                "area": 0.785398163
+            },
+            "cylinder3": {
+                "path": "rearrangement/data/simple/cylinder.urdf",
+                "z_offset": 1,
+                "area": 0.785398163
+            },
+            "cylinder4": {
+                "path": "rearrangement/data/simple/cylinder.urdf",
+                "z_offset": 1,
+                "area": 0.785398163
+            },
+            "cylinder5": {
+                "path": "rearrangement/data/simple/cylinder.urdf",
+                "z_offset": 1,
+                "area": 0.785398163
+            }
+        }
+}

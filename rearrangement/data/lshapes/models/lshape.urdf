@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<robot name="multipleshapes">
+  <link name="cuboid">
+    <inertial>
+      <mass value="2"/>
+    	<inertia ixx="0.333" ixy="0" ixz="0" iyy="0.833" iyz="0" izz="0.833"/>
+  	</inertial>
+    <collision>
+      <geometry>
+        <box size="1 3 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <geometry>
+        <box size="1 3 1"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <link name="cube">
+
+    <inertial>
+      <mass value="1"/>
+    	<inertia ixx="0.167" ixy="0" ixz="0" iyy="0.167" iyz="0" izz="0.167"/>
+  	</inertial>
+
+    <collision>
+      <geometry>
+        <box size="1 1 1"/>
+      </geometry>
+	<origin rpy="0 0 0" xyz="1 1 0"/>
+    </collision>
+    <visual>
+      <geometry>
+        <box size="1 1 1"/>
+      </geometry>
+	<origin rpy="0 0 0" xyz="1 1 0"/>
+    </visual>
+  </link>
+
+  <joint name="base_to_right_leg" type="fixed">
+    <parent link="cuboid"/>
+    <child link="cube"/>
+  </joint>
+
+</robot>

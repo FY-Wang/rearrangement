@@ -1,0 +1,97 @@
+{
+    "surface": {
+        "path": "rearrangement/data/lshapes/models/surface.urdf",
+        "pose": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "z offset": 0.5,
+        "area": 24
+    },
+    "obstacles": {
+        "walltop": {
+            "path": "rearrangement/data/lshapes/models/wall_hor.urdf",
+            "pose": [
+                0.0,
+                3,
+                0.0
+            ],
+            "z offset": 0,
+            "area": 0
+        },
+        "wallbottom": {
+            "path": "rearrangement/data/lshapes/models/wall_hor.urdf",
+            "pose": [
+                0.0,
+                -3,
+                0.0
+            ],
+            "z offset": 0,
+            "area": 0
+        },
+        "wallleft": {
+            "path": "rearrangement/data/lshapes/models/wall_ver.urdf",
+            "pose": [
+                -3,
+                0.0,
+                0.0
+            ],
+            "z offset": 0,
+            "area": 0
+        },
+        "wallright": {
+            "path": "rearrangement/data/lshapes/models/wall_ver.urdf",
+            "pose": [
+                3,
+                0.0,
+                0.0
+            ],
+            "z offset": 0,
+            "area": 0
+        }
+    },
+    "originals": {},
+    "news": {
+        "lup1": {
+            "path": "rearrangement/data/lshapes/models/lshapeup.urdf",
+            "z offset": 0.5,
+            "area": 4
+        },
+        "ldown1": {
+            "path": "rearrangement/data/lshapes/models/lshapedown.urdf",
+            "z offset": 1.5,
+            "area": 4
+        },
+        "lup2": {
+            "path": "rearrangement/data/lshapes/models/lshapeup.urdf",
+            "z offset": 0.5,
+            "area": 4
+        },
+        "ldown2": {
+            "path": "rearrangement/data/lshapes/models/lshapedown.urdf",
+            "z offset": 1.5,
+            "area": 4
+        },
+        "lup3": {
+            "path": "rearrangement/data/lshapes/models/lshapeup.urdf",
+            "z offset": 0.5,
+            "area": 4
+        },
+        "ldown3": {
+            "path": "rearrangement/data/lshapes/models/lshapedown.urdf",
+            "z offset": 1.5,
+            "area": 4
+        },
+        "lup4": {
+            "path": "rearrangement/data/lshapes/models/lshapeup.urdf",
+            "z offset": 0.5,
+            "area": 4
+        },
+        "ldown4": {
+            "path": "rearrangement/data/lshapes/models/lshapedown.urdf",
+            "z offset": 1.5,
+            "area": 4
+        }
+    }
+}

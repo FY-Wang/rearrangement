@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<robot name="plus">
+  <link name="plus1">
+    <inertial>
+      <mass value="1"/>
+    	<inertia ixx="0.167" ixy="0" ixz="0" iyy="0.167" iyz="0" izz="0.167"/>
+  	</inertial>
+    <collision>
+      <geometry>
+        <box size="0.03 0.08 0.02"/>
+      </geometry>
+    </collision>
+    <visual>
+      <geometry>
+        <box size="0.03 0.08 0.02"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <link name="plus2">
+    <inertial>
+      <mass value="1"/>
+    	<inertia ixx="0.167" ixy="0" ixz="0" iyy="0.167" iyz="0" izz="0.167"/>
+  	</inertial>
+    <collision>
+      <geometry>
+        <box size="0.08 0.03 0.02"/>
+      </geometry>
+    </collision>
+    <visual>
+      <geometry>
+        <box size="0.08 0.03 0.02"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <link name="handle">
+
+    <inertial>
+      <mass value="1"/>
+    	<inertia ixx="0.167" ixy="0" ixz="0" iyy="0.167" iyz="0" izz="0.167"/>
+  	</inertial>
+
+    <collision>
+      <geometry>
+        <box size="0.03 0.03 0.025"/>
+      </geometry>
+	<origin rpy="0 0 0" xyz="0 0 0.0225"/>
+    </collision>
+    <visual>
+      <geometry>
+        <box size="0.03 0.03 0.025"/>
+      </geometry>
+	<origin rpy="0 0 0" xyz="0 0 0.0225"/>
+    </visual>
+  </link>
+
+  <joint name="plus1_to_plus2" type="fixed">
+    <parent link="plus1"/>
+    <child link="plus2"/>
+  </joint>
+
+  <joint name="plus1_to_handle" type="fixed">
+    <parent link="plus1"/>
+    <child link="handle"/>
+  </joint>
+
+</robot>

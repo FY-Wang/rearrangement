@@ -1,0 +1,113 @@
+{
+    "surface": {
+        "path": "rearrangement/data/simple/models/surface.urdf",
+        "z offset": 0.50,
+        "area": 50
+    },
+    "obstacles": {
+        "obs_cylinder_1": {
+            "path": "rearrangement/data/simple/models/cylinder.urdf",
+            "pose": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "z offset": 0.50,
+            "area": 0.785398163
+        }
+    },
+    "originals": {
+        "org_cube_1": {
+            "path": "rearrangement/data/simple/models/cube.urdf",
+            "pose": [-4.5, -2, 0],
+            "z offset": 0.50,
+            "area": 1
+        },
+        "org_cuboid_1": {
+            "path": "rearrangement/data/simple/models/cuboid.urdf",
+            "pose": [-4.5, -0.67, 1.57],
+            "z offset": 0.5,
+            "area": 2
+        },
+        "org_sphere_1": {
+            "path": "rearrangement/data/simple/models/sphere.urdf",
+            "pose": [-4.5, 0.67, 0],
+            "z offset": 0.5,
+            "area": 0.785398163
+        },
+        "org_cylinder_1": {
+            "path": "rearrangement/data/simple/models/cylinder.urdf",
+            "pose": [-4.5, 2.0, 0],
+            "z offset": 0.5,
+            "area": 0.785398163
+        },
+        "org_cube_2": {
+            "path": "rearrangement/data/simple/models/cube.urdf",
+            "pose": [-1.5, -2.0, 0],
+            "z offset": 0.50,
+            "area": 1
+        }
+    },
+    "news": {
+        "new_cube_1": {
+            "path": "rearrangement/data/simple/models/cube.urdf",
+            "z offset": 0.5,
+            "area": 1
+        },
+        "new_cube_2": {
+            "path": "rearrangement/data/simple/models/cube.urdf",
+            "z offset": 0.5,
+            "area": 1
+        },
+        "new_cube_3": {
+            "path": "rearrangement/data/simple/models/cube.urdf",
+            "z offset": 0.5,
+            "area": 1
+        },
+        "new_cuboid_1": {
+            "path": "rearrangement/data/simple/models/cuboid.urdf",
+            "z offset": 0.5,
+            "area": 2
+        },
+        "new_cuboid_2": {
+            "path": "rearrangement/data/simple/models/cuboid.urdf",
+            "z offset": 0.5,
+            "area": 2
+        },
+        "new_cuboid_3": {
+            "path": "rearrangement/data/simple/models/cuboid.urdf",
+            "z offset": 0.5,
+            "area": 2
+        },
+        "new_sphere_1": {
+            "path": "rearrangement/data/simple/models/sphere.urdf",
+            "z offset": 0.5,
+            "area": 0.785398163
+        },
+        "new_sphere_2": {
+            "path": "rearrangement/data/simple/models/sphere.urdf",
+            "z offset": 0.5,
+            "area": 0.785398163
+        },
+        "new_sphere_3": {
+            "path": "rearrangement/data/simple/models/sphere.urdf",
+            "z offset": 0.5,
+            "area": 0.785398163
+        },
+        "new_cylinder_1": {
+            "path": "rearrangement/data/simple/models/cylinder.urdf",
+            "z offset": 0.5,
+            "area": 0.785398163
+        },
+        "new_cylinder_2": {
+            "path": "rearrangement/data/simple/models/cylinder.urdf",
+            "z offset": 0.5,
+            "area": 0.785398163
+        },
+        "new_cylinder_3": {
+            "path": "rearrangement/data/simple/models/cylinder.urdf",
+            "z offset": 0.5,
+            "area": 0.785398163
+        }
+    }
+}

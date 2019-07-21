@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<robot name="surface">
+  <link name="base_link">
+
+    <collision>
+      <geometry>
+        <box size="9.75 4.87 1"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="50"/>
+    	<inertia ixx="108" ixy="0" ixz="0" iyy="421" iyz="0" izz="521"/>
+  	</inertial>
+
+    <visual>
+      <geometry>
+        <box size="9.75 4.87 1"/>
+      </geometry>
+    </visual>
+
+  </link>
+</robot>
